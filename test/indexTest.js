@@ -74,7 +74,9 @@ describe("index.js", () => {
     expect(color).to.exist
     expect(color).to.equal("pink")
     expect(song).to.exist
-    expect(song).to.equal("Never Before, Never Again")
+    expect(song[0]).to.equal("Never Before, Never Again")
+    expect(song[1]).to.equal("Moving Right Along")
+    expect(song[2]).to.equal("Something Better Comes Along")
     expect(job).to.exist
     expect(job).to.equal("Cast member of The Muppet Show")
     expect(partner).to.exist
